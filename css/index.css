@@ -2,6 +2,9 @@
 :root{
     font-family: 'Nunito Sans', sans-serif;
 }
+link{
+    display:none;
+}
 
 body{
     max-width:980px;
@@ -34,16 +37,46 @@ header nav ul li a:visited {
 }
 header nav p{
     font-size: 0.9rem
-    line-height: 1rem;
+    align="center"
+}
+header nav p img{
+    width:50px;
+    float :left;
+    margin-right:10px;
 }
 
+div{
+    flex:1;
+}
+#aboutme img{
+    width:200px;
+    float:left;
+    margin-left:20px;
+} 
+#work img{
+    width:400px;
+    float:right;
+    margin-right:20px;
+} 
+
+input{
+    display:center;
+}
+.social{
+    display:inline;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+
+    
+/*
 #menu-toggle{
     display:none;
 }
 .label-toggle{
     display:none;
 }
-
 
 
 
@@ -55,7 +88,7 @@ img{
 }
 
 
-
+/*
 @media="min-width:400px;" {
     
     
@@ -86,3 +119,4 @@ img{
     }
     
 }
+/*
