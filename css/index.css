@@ -6,6 +6,7 @@
 body{
     max-width:980px;
     margin:auto;
+    margin-bottom:120px;
 }
 header nav{
     display:flex;
@@ -43,7 +44,19 @@ header nav p{
     display:none;
 }
 
-@media screen and (max-width:400px;) {
+
+
+
+
+img{
+    width:300px;
+    float:right;
+    margin-left:10px;
+}
+
+
+
+@media="min-width:400px;" {
     
     
     header nav ul {
@@ -72,4 +85,4 @@ header nav p{
         margin-left: auto;
     }
     
-    }
+}
