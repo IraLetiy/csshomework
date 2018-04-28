@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
 :root{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -45,8 +46,12 @@ header nav p img{
     margin-right:10px;
 }
 
+*img{
+    width:200px;
+}
 div{
-    flex:1;
+    display:flex;
+     justify-content:space-between;
 }
 #aboutme img{
     width:200px;
@@ -69,54 +74,6 @@ input{
     cursor:pointer;
 }
 
-    
-/*
-#menu-toggle{
-    display:none;
-}
-.label-toggle{
-    display:none;
-}
 
 
 
-
-img{
-    width:300px;
-    float:right;
-    margin-left:10px;
-}
-
-
-/*
-@media="min-width:400px;" {
-    
-    
-    header nav ul {
-        display: none;
-    }
-    
-    .label-toggle {
-        display: block;
-        cursor: pointer;
-        margin-left: 15px;
-    }
-    
-    #menu-toggle:checked + ul {
-        display: block;
-        visibility: visible;
-        position: fixed;
-        top: 32px;
-        right: 0px;
-        border: 1px solid black;
-        margin: 10px;
-        padding: 10px;
-        background-color: white;
-    }
-    
-    .cart {
-        margin-left: auto;
-    }
-    
-}
-/*
