@@ -6,39 +6,29 @@ font-family: 'Asap', sans-serif;
 }
 link{
     display:none;
-}
+
 
 body{
     max-width:980px;
-    margin:auto;
+    margin:0 auto;
     margin-bottom:120px;
 }
 
-*img{
-    float:left;
-    width:200px;
-    heigh:100px;
-    margin:auto;
+aside img {
+    display:block;
+    width:100%;
 }
-
-#container{
+.container{
     width:200px;
     height:200px;
     position:relative;
-    border:1px solid black;
-}
-.box{
-    border:1px solid red;
-    position:absolute;
-    width:20px;
-    height:20px;    
 }
 
 div + p {
-    display:center;
+    display:auto;
 }
 #aboutme img{
-    width:200px;
+    width:0.5px;
     float:left;
     margin-left:20px;
 } 
@@ -47,56 +37,79 @@ div + p {
     float:right;
     margin-right:20px;
 } 
+#skills img{
+    width:400px;
+    float:left;
+    margin-left:10px;
+} 
+#links img{
+    min-width:400px;
+    float:right;
+    margin-right:20px;
+}
+#contactme img{
+    min-width:40%;
+    float:left;
+    margin-left:10px;
+}
 
-input{
+form input{
     display:center;
 }
+
 .social{
     display:inline;
+    cursor:pointer;
     width:30px;
     height:30px;
-    cursor:pointer;
 }
-
+footer{
+    text-align: center;
+    text-decoration: none;
+}
 
 
 
 header nav{
+    background-image: url("images/purplechair.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100px;
     display:flex;
     justify-content:space-between;
+    align-items:center;
+    margin:10px;
+    
 }
-
 header nav ul{
     flex:1;
     display:flex;
-    padding: 0;
+    justify-content:space-between;
+    padding-left: 10%;
 }
 header nav ul li{
+    display: inline-block;
     list-style-type: none;
     margin:0 2%;
 }
 header nav ul li a{
     text-decoration: none;
     font-size: 0.9rem;
-    color:black;
-   
-}
-header nav ul li a:visited {
-    color:black;
     
 }
 header nav p{
+    display: flex;
+    justify-content:space-between;
     font-size: 0.9rem
-    align="center"
 }
-header nav p img{
-    width:50px;
-    float :left;
-    margin-right:10px;
+    
+header nav p img {
+    width:20px;
 }
 
-
-
-
-
-
+#menu-toggle{
+    display:none;
+}
+.label-toggle{
+    display:none;
+}

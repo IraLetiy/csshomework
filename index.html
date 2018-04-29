@@ -1,111 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My personal website</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="image/jpg" href="/images/oceanwavesicon.jpg" 
-    alt="Ocean Waves Icon">
-</head>
- 
-<body>
-    <header>
-        <nav>
-            <p>
-                <img src="/images/oceanwavesicon.jpg" alt="Ocean Waves Icon">
-            </p>
-            <ul>
-                <li><a href="#aboutme">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#links">links</a></li>
-                <li><a href="#contact me">Contact me</a></li>
-                <!--get favicon with hand pressing the button-->
-            </ul>
-        </nav>
-    </header>
-    <hr>
-    <!-- here should be different photos of nature( karusel) -->
-    <main>
-        <div class="container" class="box">
-        <div id="about me">
-            <p style="text-align:center">I would like to share some information about me</p>
-           <img src="/images/iraletiypicture.jpg" alt="Ira Letiy picture" >
-            <p> Lorem ipsum do
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My 1st web</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="icon" type="image/jpg" href="/images/oceanwavesicon.jpg" alt="Ocean Waves Icon">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <p>
+                    <img src="/images/oceanwavesicon.jpg" alt="Ocean Waves Icon">
+                </p>
+                <p>Welcome to my website</p>
+                <ul>
+                    <li>
+                        <a href="#aboutme">About</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#links">links</a>
+                    </li>
+                    <li>
+                        <a href="#contactme">Contact me</a>
+                    </li>
+                </ul>
+                <label for="menu-toggle" class="label-toggle">&#9776;</label>
+            </nav>
+            <img id="background" src="/images/purplechair.jpg" alt="Purple chair">
+        </header>
+        <hr>
+        <main>
+            <div class="container">
+                <div id="about me">
+                    <p>I would like to share some information about me</p>
+                    <aside><img src="/images/hillsandsee.jpg"alt="Hills and See"></aside>
+                    <p>Lorem ipsum do
                nulla, id malesuada urna.Nullam tincidunt justo magna, idipiscing elit. Nunc eg
                nulla, id malesuada urna.Nullam tincidunt justo magna, id semper nequricies. </p>
-        </div>
-        
-        <div id="work">
-            <img src="/images/workhard.jpg" alt="Quote about hard work">
-            <h2>Work</h2>
-            <p >Nullam eu iaculis
-            nulla, id malesuada urna.orem ipsum dolor sit amet, consectis
-            nulla, id malesuada urna.orem ipsum dolor sit s
-            nulla, id malesuada urna.orem ipsum dolor sit amet, co
-            nulla, id malesuada urna.</p>
-            <button>Learn more</button>
-        </div>
-        
-        <div id="skills">
-            <h3>Skills</h3>
-            <img src="/images/serfingguy.jpg" alt="Serfing guy">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy t nulla eros.Nullam eu iaculis
-            nulla, id malesuada urna.orem ipsum dolor sit au iaculis
-            nulla, id malesuadm eu iaculis
-            nulla, id malesuada urna.ou iaculis
-            nulla, id malesuada .Ne</p>
-        </div>
-        
-        <div id="links">
-            <h2>Links</h2>
-            <img src="/images/bridge.jpg" alt="Picture of bridge">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy t nulla eros.Nullam eu iaculis
-            nulla, id malesuada urna.orem ipsum dolor sit au iaculis
-            nulla, id malesuadm eu iaculis
-            nulla, id malesuada urna.ou iaculis
-            nulla, id malesuada .Nullam eu iaculis
-            nulla, id ma iaculis
-            nulla, id malesuada urna.
-            </p>
-        </div>
-    </main>
-    <footer>
-        <div id="contact me">
-            <img src="" alt="picture">
-            <h2>Fill in the form</h2>
-            <!-- this should be in the center-->
-        	<form action="https://formspree.io/ira2901@gmail.com" method="POST">
-        	    <input type="text" placeholder="Name" required ><br>
-        		<input type="email" placeholder="E-mail" required ><br>
-        		<textarea placeholder="Write your Message" required ></textarea><br>
-                <input type="submit" value="Get in touch">
-        	</form>
-        </div>
-        <!--picture of cascad with quotes-->
-        
-
-    <footer id="contact me">
-            <h2 style="text-align:center">Contact me</h2>
-            <ul style="text-align:center">
-        		<li>+38(093)-808-49-79</li>
-    	    </ul>
-    	         <a href="https://www.facebook.com/ira.letiy" target="_blank">
-    	            <img src="/images/facebook.png" alt="Facebook icon" class="social"></a>
-                 <a href="https://www.linkedin.com/in/ira-letiy-7b10b4ab/" target="_blank">
-                    <img src="/images/linkedinicon.png" alt="Linkedin icon" class="social"></a>
-                 <a href="mailto:anastasiia.mets@gmail.com" target="_blank">
-                    <img src="images/gmailicon.png" alt="Gmail icon" class="social"></a>
-    	    <!--add some location--><br>
-	    <span>Сreated on 2018</span>
-    </footer>
-   
-</body>
+                </div>
+                <div id="work">
+                    <aside><img src="/images/workhard.jpg" alt="Quote about hard work"></aside>
+                    <h2>Work</h2>
+                    <p>Nullam eu iaculis
+                nulla, id malesuada urna.orem ipsum dolor sit amet, consectis
+                nulla, id malesuada urna.orem ipsum dolor sit s
+                nulla, id malesuada urna.orem ipsum dolor sit amet, co
+                nulla, id malesuada urna.</p>
+                    <button>GET More info here</button>
+                </div>
+                <div id="skills">
+                    <h3>Skills</h3>
+                    <aside><img src="/images/serfingguy.jpg" alt="Serfing guy"></aside>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy t nulla eros.Nullam eu iaculis
+                nulla, id malesuada urna.orem ipsum dolor sit au iaculis
+                nulla, id malesuadm eu iaculis
+                nulla, id malesuada urna.ou iaculis
+                nulla, id malesuada .Ne</p>
+                </div>
+                <div id="links">
+                    <h2>Links</h2>
+                    <aside><img src="/images/bridge.jpg" alt="Picture of bridge"></aside>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy t nulla eros.Nullam eu iaculis
+                nulla, id malesuada urna.orem ipsum dolor sit au iaculis
+                nulla, id malesuadm eu iaculis
+                nulla, id malesuada urna.ou iaculis
+                nulla, id malesuada .Nullam eu iaculis
+                nulla, id ma iaculis
+                nulla, id malesuada urna.
+                </p>
+                </div>
+                <!-- here should be quotes in karusel -->
+        </main>
+            <div id="contactme">
+                <aside><img src="/images/pinkchair.jpg" alt="Pink chair"></aside>
+                <h2>Fill in the form</h2>
+                <!-- this should be in the center-->
+                <form action="https://formspree.io/ira2901@gmail.com" method="POST">
+                    <input type="text" placeholder="Name" required>
+                    <br>
+                    <input type="email" placeholder="E-mail" required>
+                    <br>
+                    <textarea placeholder="Write your Message" required></textarea>
+                    <br>
+                    <input type="submit" value="Get in touch">
+                </form>
+            </div>
+            <!--get favicon with hand pressing the button-->
+            <footer id="contact me">
+                <h2 style="text-align:center">Contact me</h2>
+                <ul style="text-align:center">
+                    <li>+38(093)-808-49-79</li>
+                </ul>
+                <a href="https://www.facebook.com/ira.letiy" target="_blank">
+                    <img src="/images/facebook.png" alt="Facebook icon" class="social">
+                </a>
+                <a href="https://www.linkedin.com/in/ira-letiy-7b10b4ab/" target="_blank">
+                    <img src="/images/linkedinicon.png" alt="Linkedin icon" class="social">
+                </a>
+                <a href="mailto:ira2901@gmail.com" target="_blank">
+                    <img src="images/gmailicon.png" alt="Gmail icon" class="social">
+                </a>
+                <!--add some location-->
+                <br>
+                <span>Сreated on 2018</span>
+            </footer>
+    </body>
 </html>
-
-
-
